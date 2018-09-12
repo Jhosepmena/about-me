@@ -19,7 +19,7 @@ if (born === 'yes') {
   alert(bornyes);} else { alert(bornno); }
 
 
-var music = prompt('Do I have music tatoos?');
+var music = prompt('Do I have music tattoos?');
 console.log(music.toUpperCase());
 var musicyes = 'Yes! I got them very late at night for no reason';
 var musicno = 'I actually do, I have them on my left arm';
@@ -28,13 +28,21 @@ if (music === 'yes') {
   alert(musicyes);} else { alert(musicno); }
 
 
-var running = prompt('Have I ever ran a Ultramarathon?');
+var running = prompt('Have I ever ran a ultramarathon?');
 console.log(running.toUpperCase());
 var runningyes = 'I did... Never again';
-var runningno = 'Once a long time ago I did, but like I said a long time ago';
+var runningno = 'Once, a long time ago, but like I said a long time ago..';
 
 if (running === 'yes') {
   alert(runningyes);} else { alert(runningno); }
+
+var chess = prompt('Have I ever won a chess tournament?');
+console.log(running.toUpperCase());
+var chessyes = 'To your suprised no I have not, but I would love to.';
+var chessno = 'You are right, I started playing but never got too much into it.';
+
+if (chess === 'yes') {
+  alert(chessyes);} else { alert(chessno); }
 
 
 
